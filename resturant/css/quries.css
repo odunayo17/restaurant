@@ -1,0 +1,218 @@
+:root {
+    --color-black: #000;
+    --color-black2: #333;
+    --color-white: #fff;
+    --color-white2: #fffdfd;
+    --color-white3: #fffafa;
+    --color-white4: #f5f1f1;
+    --color-grey: #ddd;
+    --color-blue: #0b63d6;
+    --color-blue2: #00aeff;
+    --color-blue3: #3700ff;
+    --color-facebook:#4267b2;
+    --color-instagram:#d62976;
+    --color-twitter: #00aced;
+    --color-whatsapp: #25d366;
+  }
+
+
+/*==================HEADER==================*/
+
+@media only screen and (max-width: 400px){
+    .hero-btn{
+       display: none;
+      }
+
+      .letter,.dash{
+        font-size: 110%;
+        padding-bottom: 400px;
+        padding-top: 0;
+      }
+
+  }
+
+@media only screen and (max-width: 700px){
+    h1 {
+        font-size: 340%;
+      }
+  
+
+  .hero_text_box {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media only screen and (max-width: 500px){
+    h1 {
+        font-size: 240%;
+      }
+
+      h2 {
+        font-size: 150%;
+        white-space: 1px;
+        letter-spacing: 1px;
+      }
+    .hero_text_box {
+        text-align: center;
+        padding-top: 400px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }  
+  }
+
+  
+
+
+@media only screen and (max-width: 300px){
+    h1 {
+        font-size: 240%;
+      }
+  }
+
+
+/*==================ABOUT ==================*/
+
+@media only screen and (max-width: 500px) {
+    .section-about p{
+        font-size: 15px;
+      }
+}
+
+
+
+/*==================NAVIGATION BAR==================*/
+
+@media (max-width: 800px) {
+    nav .mainMenu{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-white);
+        transition: top 1s ease;
+        display: none;
+    }
+  
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+  
+    nav .openMenu{
+        display: block;
+    }
+  
+    nav .mainMenu li a:hover{
+        background: none;
+        color: var(--color-blue2);
+        font-size: 1.6rem;
+        border: none;
+    }
+  
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+  
+    .active {
+      border-bottom:none;
+    }
+    
+  }
+
+/*==================MEALS==================*/
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+    .myImg{
+      opacity: 1;
+    }
+  }
+
+/*==================CITIES==================*/
+
+  @media only screen and (max-width: 1000px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 600px){
+    .responsive {
+        width: 100%;
+    }
+  }
+
+/*==================ORDER==================*/
+
+@media only screen and (max-width: 800px) {
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"],
+    textarea{
+    height: 40px;
+    width: auto;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .input-container{
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
+  }
+
+/*==================FOOTER==================*/
+
+@media only screen and (max-width: 800px){
+    .social-links{
+      display: none;
+    }
+    
+    .two{
+      display: none;
+    }
+}
+  
+@media only screen and (max-width: 500px){
+    .footer-nav{
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    footer p {
+        color: var(--color-white);
+        text-align: center;
+        font-size: 12px;
+        margin-top: 30px;
+      }
+  }
+  
+@media only screen and (max-width: 350px){
+    .footer-nav{
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    footer p {
+        color: var(--color-white);
+        text-align: center;
+        font-size: 12px;
+        margin-top: 30px;
+      }
+  }

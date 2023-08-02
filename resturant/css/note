@@ -1,0 +1,13 @@
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: var(--color-black);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.myImg:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
